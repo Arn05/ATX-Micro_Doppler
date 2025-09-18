@@ -52,7 +52,7 @@ function App() {
             ...styles.dropZone,
             borderColor: file ? "#2e7d32" : "#1976d2",
             backgroundColor: file ? "#e8f5e9" : "white",
-            // The following styles are moved from the child label element
+           
             fontSize: "1.1rem",
             fontWeight: "bold",
             color: "#1976d2",
@@ -156,7 +156,6 @@ const styles = {
     transition: "0.3s",
     backgroundcolor: "#7f7f7fff",
   },
-  // The 'uploadLabel' style is no longer needed as the label element now has the styles directly
   button: {
     padding: "0.6rem 1.2rem",
     border: "none",
