@@ -52,7 +52,7 @@ function App() {
             ...styles.dropZone,
             borderColor: file ? "#2e7d32" : "#1976d2",
             backgroundColor: file ? "#e8f5e9" : "white",
-            // The following styles are moved from the child label element
+           
             fontSize: "1.1rem",
             fontWeight: "bold",
             color: "#1976d2",
