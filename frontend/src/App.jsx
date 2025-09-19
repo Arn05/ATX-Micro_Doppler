@@ -156,7 +156,7 @@ const styles = {
     transition: "0.3s",
     backgroundcolor: "#7f7f7fff",
   },
-  // The 'uploadLabel' style is no longer needed as the label element now has the styles directly
+  
   button: {
     padding: "0.6rem 1.2rem",
     border: "none",

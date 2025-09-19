@@ -36,7 +36,7 @@ def root():
      print("Welcome to Target Classifier API")
      return {"message": "Welcome to Target Classifier API"}
 
-@app.post("/predict/")
+@app.post("/predict/") 
 async def predict(input_file: UploadFile = File(...)):
     if not input_file.filename.endswith(".csv"):
         raise HTTPException(status_code=400, detail="Only CSV files are supported")
@@ -55,7 +55,6 @@ async def predict(input_file: UploadFile = File(...)):
     pred = "Bird" if num_bird > num_drone else "Drone"
 
     return {"prediction": pred}
-
 
 app.add_middleware(
     CORSMiddleware,
